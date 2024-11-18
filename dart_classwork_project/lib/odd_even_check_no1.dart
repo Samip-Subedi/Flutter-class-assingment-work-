@@ -1,11 +1,8 @@
-void checkOddOrEven(int number) {
-  if (number % 2 == 0) {
-    print("$number is Even");
-  } else {
-    print("$number is Odd");
-  }
+void main() {
+  print(checkOddOrEven(7));
+  print(checkOddOrEven(10));
 }
 
-void main() {
-  checkOddOrEven(7); 
+String checkOddOrEven(int number) {
+  return number % 2 == 0 ? "Even" : "Odd";
 }
