@@ -1,7 +1,6 @@
 class BankAccount {
   double _balance = 0.0; 
-
-  
+ 
   double getBalance() => _balance;
 
  
@@ -13,7 +12,7 @@ class BankAccount {
     }
   }
 
-  
+ 
   void withdraw(double amount) {
     if (amount > 0 && amount <= _balance) {
       _balance -= amount;
